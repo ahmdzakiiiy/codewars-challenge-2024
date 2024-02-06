@@ -1,3 +1,5 @@
+// Day 1/100
+
 // function grow(x) {
 //     let result = x[0];
 //     for (i = 1; i < x.length; i++) {
