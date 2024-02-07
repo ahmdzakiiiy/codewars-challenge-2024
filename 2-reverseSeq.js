@@ -11,7 +11,8 @@
 
 const reverseSeq = n => {
     // return Array(n).fill().map((el, i) => i + 1).reverse();
-    return[ ...Array(n)].map((el, i) => i + 1).reverse();
+    // return[ ...Array(n)].map((el, i) => i + 1).reverse();
+    return[ ...Array(n)].map((el, i) => n - i);
 }
 
 console.log(reverseSeq(5));
